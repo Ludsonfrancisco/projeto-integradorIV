@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-header{
+    position: relative;
+    width: 100%;
+    height: 625px;
+    background-image: url(img/gwangan-bridge-and-haeundae-at-night-in-busan-korea\ \(1\).jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+}
+
+.container{
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between; /* switched from default (flex-start, see below) */
+}
+
+.logo, .menu{
+    margin-top: 50px;
+   
+}
+
+.logo{
+    margin-left: 200px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu {
+    margin-right: 200px;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu li a {
+    font-family:'Montserrat', sans-serif;
+    color: white;
+    background: rgba(16, 25, 53, 0.3);
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.menu li a:hover{
+    background: #2d4aa1;
+}
+
+main .home-flutuante a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+    background: rgba(16, 25, 53, 0.6);
+    border-radius: 50%;
+    cursor: pointer;
+    font-family:'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+main .home-flutuante a:hover{
+    background: #2d4aa1;
+}
+
+
+main .home-flutuante{
+    
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+
+}
+
+
+
+
+
+.content h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family:'Montserrat', sans-serif;
+}
+
+.about-us{
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-between; /* switched from default (flex-start, see below) */
+    margin: 100px 0;
+    align-items: center;
+    
+}
+
+.about-us img{
+    width: 45%;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+
+.about-us p {
+    width: 30%;
+    margin-right: 150px;
+    font-family:'Montserrat', sans-serif;
+    color: #101935;
+}
+
+.content-video{
+    margin: 100px 0;
+}
+
+.about-us .section-video{
+    width: 30%;
+    margin-left: 150px;
+    border-radius: 5px;
+    font-family:'Montserrat', sans-serif;
+    color: #101935;
+    line-height: 20px;
+    font-style: 16px;
+}
+
+.about-us video {
+    width: 40%;
+    margin-right: 150px;  
+}
+
+
+
+
+
